@@ -216,7 +216,7 @@ margin-right: 1045px; */
     url(../images/officephoto.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  /* background-size: cover; */
+  background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -266,6 +266,8 @@ margin-right: 1045px; */
   border-radius: 4px;
   background: var(--color-iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover {
