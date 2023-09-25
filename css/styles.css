@@ -532,4 +532,19 @@ margin-right: 1045px; */
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
+ 
+}
+
+.social-links .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-iris)
+}
+
+.social-links .icon {
+  fill: #fff;
 }
