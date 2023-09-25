@@ -36,16 +36,16 @@ ol {
 }
 
 .visually-hidden {
-position: absolute; 
-width: 1px; 
-height: 1px; 
-margin: -1px; 
-border: 0; 
-padding: 0; 
-white-space: nowrap; 
-clip-path: inset(100%); 
-clip: rect(0 0 0 0); 
-overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 img {
@@ -71,11 +71,8 @@ ul {
 }
 
 .header {
-    border-bottom: 1px solid var(--color-cornflower);
-    
-    
+  border-bottom: 1px solid var(--color-cornflower);
 }
-
 
 .header-logo {
   text-decoration: none;
@@ -89,13 +86,11 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
 
-  
   margin-right: 76px;
 }
 
 .address {
-    margin-left: auto;
-    
+  margin-left: auto;
 }
 
 .header-logo:hover {
@@ -140,9 +135,8 @@ margin-right: 1045px; */
 
 /* .nav-link {
   /* float: left; */
-  /* display: flex;
+/* display: flex;
   /* margin-right: 40px; */
-
 
 .header-link:focus {
   color: var(--color-ocean);
@@ -170,10 +164,7 @@ margin-right: 1045px; */
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-
- 
 }
-
 
 .contacts-link:focus {
   color: var(--color-ocean);
@@ -184,16 +175,14 @@ margin-right: 1045px; */
 }
 
 .header .container {
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
 .navigation-container {
   background-color: var(--color-white);
   display: flex;
   align-items: center;
-  
 }
 
 .address-container {
@@ -201,7 +190,6 @@ margin-right: 1045px; */
   display: flex;
   align-items: center;
   gap: 40px;
-  
 }
 
 .navigation-container-list {
@@ -211,20 +199,21 @@ margin-right: 1045px; */
   gap: 40px;
 }
 
-
-
 .container {
-  width:1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-
-
 .hero-section {
   background-color: var(--color-navyblue);
   padding: 188px 0;
-  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/officephoto.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/officephoto.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   /* background-size: cover; */
@@ -248,9 +237,6 @@ margin-right: 1045px; */
   margin: 0 auto;
 }
 
-  
-  
-
 .order-button {
   color: var(--color-white);
   font-family: "Roboto", sans-serif;
@@ -273,8 +259,6 @@ margin-right: 1045px; */
   cursor: pointer;
 
   margin: 48px auto 0;
-  
-
 
   align-items: flex-start;
   gap: 10px;
@@ -297,7 +281,7 @@ margin-right: 1045px; */
 }
 
 .benefits {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .benefit-title {
@@ -308,7 +292,7 @@ margin-right: 1045px; */
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px; 
+  margin-bottom: 8px;
 }
 
 .benefits-card {
@@ -319,11 +303,10 @@ margin-right: 1045px; */
   /* width: 264px;
   flex-direction: column;
   align-items: flex-start; */
-
 }
 
 .benefits-list {
-    width: calc((100% - 72px) / 3);
+  width: calc((100% - 72px) / 3);
 }
 
 .benefit-text {
@@ -352,23 +335,19 @@ margin-right: 1045px; */
   /* padding-top: 120px; */
 }
 
-
-
 .section-team {
   text-align: center;
   background-color: var(--color-cloud);
   padding: 120px 0;
 }
 
-
 .section-portfolio {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .personslist {
-    display: flex;
-    gap: 24px;
-    
+  display: flex;
+  gap: 24px;
 }
 
 .person-card {
@@ -380,16 +359,16 @@ margin-right: 1045px; */
   align-items: center; */
   /* gap: 32px; */
   border-radius: 0px 0px 4px 4px;
-  
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    
-  width: calc((100% - 72px)/4);
+
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+  width: calc((100% - 72px) / 4);
 }
 
-
 .persondetails {
-    padding: 32px 0;
-    
+  padding: 32px 0;
 }
 
 .person-name {
@@ -408,7 +387,6 @@ margin-right: 1045px; */
 
 .person-text {
   margin: 0;
-  
 }
 
 /* .porfolio-container {
@@ -419,28 +397,26 @@ margin-right: 1045px; */
 } */
 
 .portfoliolist {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
-
 
 .project-container {
-    padding: 32px 16px;
-    border: 1px solid var(--color-cornflower);
-    border-top: none;
-    
+  padding: 32px 16px;
+  border: 1px solid var(--color-cornflower);
+  border-top: none;
 }
-
 
 .portfoliocards {
   background-color: var(--color-white);
-  
+  position: relative;
+  overflow: hidden;
   text-decoration: none;
 
   display: inline-block;
-  /* width: 360px; */
+  
   width: calc((100% - 48px) / 3);
 
   padding-bottom: 0px;
@@ -453,14 +429,13 @@ margin-right: 1045px; */
 .project-name {
   text-decoration: none;
   color: var(--color-navyblue);
-  
+
   font-size: 20px;
-  
+
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  
   margin-bottom: 8px;
 }
 
@@ -473,8 +448,6 @@ margin-right: 1045px; */
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-
-  
 }
 
 .project {
@@ -511,7 +484,7 @@ margin-right: 1045px; */
 
 .footer-logo:focus {
   color: var(--color-iris);
-} 
+}
 
 .footer-text {
   color: var(--color-cloud);
@@ -528,58 +501,59 @@ margin-right: 1045px; */
   display: flex;
 }
 
-
 .social-links {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
- 
 }
 
-.social-links .link, .link-footer {
+.social-links .link,
+.link-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--color-iris)
+  background-color: var(--color-iris);
 }
 
 .social-links .icon {
   fill: #fff;
 }
 
-.social-links .link:hover, .social-links .link:focus {
+.social-links .link:hover,
+.social-links .link:focus {
   background-color: var(--color-ocean);
 }
 
-.link-footer:hover, .link-footer:focus {
+.link-footer:hover,
+.link-footer:focus {
   background-color: var(--color-green);
 }
 
 .icon-benefits-box {
-display: flex;
-border-radius: 4px;
-border: 1px solid var(--color-lightslate);
-background: var(--color-cloud);
-justify-content: center;
-align-items: center;
-padding: 24px 0px;
-margin-bottom: 8px;
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid var(--color-lightslate);
+  background: var(--color-cloud);
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0px;
+  margin-bottom: 8px;
 }
 
 .social-media-footer {
-color: var(--color-white);
-font-size: 16px;
-font-weight: 500;
-line-height: 150%;
-letter-spacing: 0.32px;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
 }
 
 .footer {
-  position: relative
+  position: relative;
 }
 
 .footer-links-container {
@@ -598,8 +572,37 @@ letter-spacing: 0.32px;
   position: absolute;
   display: block;
   width: 100%;
-  content: "";  
+  content: "";
   height: 4px;
   background-color: var(--color-ocean);
-  }
-    
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: var(--color-iris);
+
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.portfoliocards:hover .overlay {
+  transform: translatey(0);
+}
+
+.overlay p {
+  color: var(--color-cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  margin: 40px 32px 164px;
+}
+
