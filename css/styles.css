@@ -572,20 +572,21 @@ align-items: baseline;
   /* margin: 0px 804px 188px 504px; */
 } */
 
-.navigation-container-list {
+/* .navigation-container-list {
   position: relative;
-}
+} */
 )
 
 /* .nav-link {
   position: absolute;
 } */
 
-/* .nav-link {
+.nav-link {
   position: relative;
-} */
+  color: var(--color-ocean);
+}
 
-.nav-link:hover::after {
+.header-link:hover::after {
   position: absolute;
   left: 0;
   bottom: -1px;
