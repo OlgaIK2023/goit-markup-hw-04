@@ -614,7 +614,7 @@ align-items: baseline;
   
 }
 
-.overlay:hover {
+.portfoliocards:hover .overlay {
   transform: translatey(0);
 }
 
