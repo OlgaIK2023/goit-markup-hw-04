@@ -133,11 +133,6 @@ ul {
   
 }
 
-/* .nav-link {
-  /* float: left; */
-/* display: flex;
-  /* margin-right: 40px; */
-
 .header-link:focus {
   color: var(--color-ocean);
 }
@@ -577,9 +572,18 @@ align-items: baseline;
   /* margin: 0px 804px 188px 504px; */
 } */
 
-.nav-link {
+.navigation-container-list {
   position: relative;
 }
+)
+
+/* .nav-link {
+  position: absolute;
+} */
+
+/* .nav-link {
+  position: relative;
+} */
 
 .nav-link:hover::after {
   position: absolute;
