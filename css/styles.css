@@ -494,22 +494,18 @@ margin-right: 1045px; */
 .footer-text {
   color: var(--color-cloud);
 
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
+  margin-bottom: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-
   width: 264px;
-
-  display: flex;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   margin-top: 8px;
 }
 
@@ -559,6 +555,7 @@ margin-right: 1045px; */
 
 .footer .container {
 display: flex;
+align-items: baseline;
 
 }
 
