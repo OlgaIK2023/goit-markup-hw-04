@@ -518,10 +518,11 @@ margin-right: 1045px; */
   height: 40px;
   border-radius: 50%;
   background-color: var(--color-iris);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links .icon {
-  fill: #fff;
+  fill: var(--color-cloud);
 }
 
 .social-links .link:hover,
