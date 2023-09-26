@@ -491,11 +491,15 @@ ul {
   color: var(--color-cloud);
 
   font-size: 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   width: 264px;
+}
+
+.footer-text p {
+  margin-bottom: 16px;
 }
 
 .social-links {
@@ -503,6 +507,10 @@ ul {
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
+}
+
+.footer-links-container .social-links {
+ gap: 16px;
 }
 
 .social-links .link,
