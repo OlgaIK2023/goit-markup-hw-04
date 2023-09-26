@@ -590,12 +590,12 @@ align-items: baseline;
   position: absolute;
 } */
 
-.nav-link {
+.header-link {
   position: relative;
   color: var(--color-ocean);
 }
 
-.header-link:hover::after {
+.nav-link-current::after {
   position: absolute;
   left: 0;
   bottom: -1px;
