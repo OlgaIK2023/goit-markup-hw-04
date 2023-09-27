@@ -114,7 +114,7 @@ ul {
   color: var(--color-ocean);
 }
 
-.header-link {
+.header-link, .header-link-current {
   padding: 24px 0;
   display: block;
   text-decoration: none;
@@ -133,11 +133,11 @@ ul {
   
 }
 
-.header-link:focus {
+.header-link:focus, .header-link-current:focus {
   color: var(--color-ocean);
 }
 
-.header-link:hover {
+.header-link:hover, .header-link-current:hover {
   color: var(--color-ocean);
 }
 
@@ -351,11 +351,6 @@ ul {
 .person-card {
   background: var(--color-white);
 
-  /* padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-  /* gap: 32px; */
   border-radius: 0px 0px 4px 4px;
 
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -386,13 +381,6 @@ ul {
 .person-text {
   margin: 0;
 }
-
-/* .porfolio-container {
-  padding-top: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-bottom: 120px;
-} */
 
 .portfoliolist {
   display: flex;
@@ -557,6 +545,7 @@ p .footer-text {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
 
 .footer .container {
@@ -569,33 +558,12 @@ align-items: baseline;
   margin-right: 120px;
 }
 
-/* .footer {
+.nav-link {
   position: relative;
-} */
-
-/* .footer-links-container {
-  position: absolute;
-  top: 100px;
-  left: 540px;
-  margin-left: 120px;
-  /* margin: 0px 804px 188px 504px; */
-} */
-
-/* .navigation-container-list {
-  position: relative;
-} */
-)
-
-/* .nav-link {
-  position: absolute;
-} */
-
-.header-link {
-  position: relative;
-  color: var(--color-ocean);
+  color: var(--color-ocean)
 }
 
-.nav-link-current::after {
+.header-link-current::after {
   position: absolute;
   left: 0;
   bottom: -1px;
