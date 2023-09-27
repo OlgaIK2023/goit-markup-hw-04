@@ -558,12 +558,16 @@ align-items: baseline;
   margin-right: 120px;
 }
 
-.nav-link {
+.header-link {
   position: relative;
-  color: var(--color-ocean)
+  
 }
 
-.header-link-current::after {
+.header-link.current {
+  color: var(--color-ocean);
+}
+
+.header-link.current::after {
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -573,6 +577,7 @@ align-items: baseline;
   content: "";
   height: 4px;
   background-color: var(--color-ocean);
+  
 }
 
 .overlay-box {
